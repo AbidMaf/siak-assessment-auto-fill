@@ -1,0 +1,23 @@
+{
+    "name": "SIAK Quistioner Autofill",
+    "description": "Pemales!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Click to view a popup",
+      "default_popup": "popup.html"
+    }
+  }
+  

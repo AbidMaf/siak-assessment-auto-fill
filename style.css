@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button, input[type=number] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+    background: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px 0;
+    border-radius: 0 0 50px 50px;
+}
+
+.range {
+    gap: 20px;
+    margin: 16px 0;
+}
+
+.input-controller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.input-controller>label {
+    width: fit-content;
+    display: inline-block;
+}
+
+.range-input {
+    max-width: 40%;
+}

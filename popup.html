@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="range">
+            <div class="input-controller">
+                <label for="minRange">Range awal</label>
+                <input autofocus class="range-input" type="number" name="min" id="minRange" value="1">
+                <span class="hint-min"></span>
+            </div>
+            <div class="input-controller">
+                <label for="maxRange">Range Akhir</label>
+                <input class="range-input" type="number" name="max" id="maxRange" value="9">
+                <span class="hint-max"></span>
+            </div>
+        </div>
+        <button id="runScript">Start</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
